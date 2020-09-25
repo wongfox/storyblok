@@ -1,5 +1,5 @@
 <template>
-    <footer :style="`background:${blok.background}`">
+    <footer v-editable="blok" :style="`background:${blok.background}`">
         <p :style="`color:${blok.color}`" :class="blok.class">{{ blok.title }}</p>
     </footer>
 </template>

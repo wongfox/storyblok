@@ -1,5 +1,5 @@
 <template>
-    <header :style="`background:${blok.backgroundColor}`">
+    <header v-editable="blok" :style="`background:${blok.backgroundColor}`">
         <nav>
             <h3 :style="`color:${blok.color}`">{{ blok.title }}</h3>
         </nav>
